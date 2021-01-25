@@ -89,6 +89,9 @@ function game(){
         ctx.fillStyle ='black';
         ctx.fillRect(this.x, this.y, scale, scale);
         
+        ctx.fillStyle ='white';
+        ctx.fillRect(this.x + scale / 4, this.y + scale / 4, scale / 4, scale / 4);
+        
       };
       
       this.create = function(){     
