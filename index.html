@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css"/>
+    
+  </head>
+  <body>
+    
+    <section class="snake">
+      <div class="title">
+        <div class="img">
+          <img src="img/snake.svg" alt="snake">
+        </div>
+        
+        <h1>Snake v.3.1.2</h1>
+      </div>
+      
+      <div class="fruit">Eaten<span class="score">0</span>fruit<span class="more">s</span></div>
+      <div class="game-over"></div>
+      
+      <div class="row">
+
+        <canvas id="draw" width="300" height="300"></canvas>
+
+        <div class="manipulation">
+
+          <span class="up"></span>
+          <span class="down"></span>
+          <span class="left"></span>
+          <span class="right"></span>
+          
+          <button class="btn">start</button>
+          
+          <select name="select" id="select">
+          <option value="50">very hard</option>
+          <option value="100">hard</option>
+          <option value="150" selected>middle</option>
+          <option value="200">easy</option>
+          <option value="250">very easy</option>
+          
+          </select>
+
+        </div>
+        
+
+      </div>
+      
+      
+    </section>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
+ 
